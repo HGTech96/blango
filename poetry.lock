@@ -125,6 +125,22 @@ files = [
 django = ">=3.2"
 
 [[package]]
+name = "django-debug-toolbar"
+version = "4.1.0"
+description = "A configurable set of panels that display various debug information about the current request/response."
+category = "main"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "django_debug_toolbar-4.1.0-py3-none-any.whl", hash = "sha256:a0b532ef5d52544fd745d1dcfc0557fa75f6f0d1962a8298bd568427ef2fa436"},
+    {file = "django_debug_toolbar-4.1.0.tar.gz", hash = "sha256:f57882e335593cb8e74c2bda9f1116bbb9ca8fc0d81b50a75ace0f83de5173c7"},
+]
+
+[package.dependencies]
+django = ">=3.2.4"
+sqlparse = ">=0.2"
+
+[[package]]
 name = "django-excel-response2"
 version = "3.0.5"
 description = "A function extends of Tarken's django-excel-response"
@@ -339,4 +355,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "950a21c7628ded5fe46f6dd2f6bbc49377e80a658cd50c89f11972ac7af48962"
+content-hash = "8dca797d9ea15c173bd39894f63b684e8618a7ffcf1ce5cfa473c95851370805"
